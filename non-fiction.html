@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Book Store</title>
+    <link rel="stylesheet" href="fpstyle.css">
+    <script src="firstp.js"></script>
+</head>
+<body>
+
+    <header>
+        <h1><span class="novel">Novel</span> <span class="nook">Nook</span></h1>
+    </header>
+
+    <nav>
+        <a href="firstp.html">Home</a>
+        <a href="category.html">Categories</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+
+    <main>
+        <h3>Fiction</h3>
+        <div class="book-category">
+          <div class="book" onmouseover="highlightBook(this)" onmouseout="removeHighlight(this)" onclick="navigateToDetails('star.html')">
+                <img src="star(non).jpg" alt="Fiction Book 1">
+                <p>Book Title 1</p>
+            </div>
+            <div class="book" onmouseover="highlightBook(this)" onmouseout="removeHighlight(this)" onclick="navigateToDetails('wild.html')">
+                <img src="the_wild(non).jpg" alt="Fiction Book 2">
+                <p>Book Title 2</p>
+            </div>
+            <div class="book" onmouseover="highlightBook(this)" onmouseout="removeHighlight(this)" onclick="navigateToDetails('ript.html')">
+                <img src="ript(non).jpg" alt="Fiction Book 2">
+                <p>Book Title 2</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        &copy; 2023 Online Book Store. All rights reserved.
+    </footer>
+
+</body>
+</html>

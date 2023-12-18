@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Book Store</title>
+    <link rel="stylesheet" href="sample.css">
+    <script src="sample.js"></script>
+</head>
+<body>
+
+    <header>
+        <h1><span class="novel">Novel</span> <span class="nook">Nook</span></h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Categories</a>
+        <a href="#">Contact Us</a>
+    </nav>
+
+    <main>
+        <h2>Explore a wide selection of books at our online book store. Find fiction, non-fiction, mystery, and more!</h2>
+        <img src="Sale.jpg" alt="Wide Image" style="width: 100%; height: 500px; margin: 20px 0;">
+
+        <h3>Fiction</h3>
+        <div class="book-category">
+          <div class="book" onmouseover="highlightBook(this)" onmouseout="removeHighlight(this)" onclick="navigateToDetails('book1.html')">
+                <img src="brownm.jpg" alt="Fiction Book 1">
+                <p>Book Title 1</p>
+            </div>
+            <div class="book" onmouseover="highlightBook(this)" onmouseout="removeHighlight(this)" onclick="navigateToDetails('book2.html')">
+                <img src="brownm.jpg" alt="Fiction Book 2">
+                <p>Book Title 2</p>
+            </div>
+        </div>
+        <h3>Non-Fiction</h3>
+        <div class="book-category">
+            <div class="book" onmouseover="highlightBook(this)" onmouseout="removeHighlight(this)" onclick="navigateToDetails('book3.html')">
+                <img src="brownm.jpg" alt="Non-Fiction Book 1">
+                <p>Book Title 3</p>
+            </div>
+            <div class="book" onmouseover="highlightBook(this)" onmouseout="removeHighlight(this)" onclick="navigateToDetails('book1.html')">
+                <img src="brownm.jpg" alt="Non-Fiction Book 2">
+                <p>Book Title 4</p>
+            </div>
+        </div>
+
+        <h3>Mystery</h3>
+        <div class="book-category">
+          <div class="book" onmouseover="highlightBook(this)" onmouseout="removeHighlight(this)" onclick="navigateToDetails('book1.html')">
+                <img src="brownm.jpg" alt="Mystery Book 1">
+                <p>Book Title 5</p>
+            </div>
+            <div class="book" onmouseover="highlightBook(this)" onmouseout="removeHighlight(this)" onclick="navigateToDetails('book1.html')">
+                <img src="brownm.jpg" alt="Mystery Book 2">
+                <p>Book Title 6</p>
+            </div>
+        </div>
+        
+    </main>
+
+    <footer>
+        &copy; 2023 Online Book Store. All rights reserved.
+    </footer>
+
+</body>
+</html>

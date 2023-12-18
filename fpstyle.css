@@ -1,0 +1,99 @@
+.novel {
+    color: black; 
+  }
+  
+  .nook {
+    color: white;
+  }
+  
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    margin-bottom: 50px;
+  }
+  
+  header {
+    background-color: #D6A615;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+  }
+  
+  nav {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 0.5em;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 1em;
+  }
+  
+  nav a:hover {
+    background-color: #555;
+  }
+  
+  
+  h3{
+    padding: 1em;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .book-category {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .book {
+    width: 200px;
+    margin-top: 50px;
+    margin: 20px 10px; 
+    text-align: center;
+  }
+  
+  .book img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .book p {
+    margin: 10px 0;
+  }
+  
+  .category {
+    text-align: center;
+    margin-bottom: 50px; 
+  }
+  
+  main img.wide-image {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+  }
+  
+  .highlight {
+    border: 2px solid #007BFF; /* You can customize the color and style */
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+  }
+  
+  .book:hover {
+    background-color: #f8f9fa; /* Change to the desired background color */
+  }
